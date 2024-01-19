@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" href="s1.css"></link>
+</head>
+<body>
+    <h1>Random Number Generator</h1>
+    <br>
+    <p id="demo">Click below the button and ganerate otp</p>
+    <button onclick="myfunction()">GENERATE NUMBER</button>
+
+    
+    <script>
+        function myfunction()
+        {   
+            let number=Math.floor(10000+90000*Math.random());
+            document.getElementById("demo").innerHTML=number;
+        }
+        
+    </script> 
+
+</body>
+
+
+</html>    

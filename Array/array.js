@@ -14,6 +14,9 @@ for(i=0;i<array.length;i++)
 }
 
 
+
+
+
 //object is same as array but not bettter than
 //array data struncture in js 
 //object contains userdefine types but array
