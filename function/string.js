@@ -10,7 +10,7 @@ function countVowel(str)
             count++;
         }
     }
-    console.log(count);
+    console.log(count); 
 }
 let result=countVowel("haney");
 console.log(result);
