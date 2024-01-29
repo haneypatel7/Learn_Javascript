@@ -1,0 +1,19 @@
+dom-document object model
+dom -its manipulator object
+
+using it we can manipulated css ,events particular etc at runtime
+using html and css we cant do that
+
+
+document its object of the window
+
+window.document
+
+window are universal class obejct
+
+example:-
+document.getElementById("");
+getElementByClassName("");
+getElementByTagName("p");
+
+document.querySelector("");

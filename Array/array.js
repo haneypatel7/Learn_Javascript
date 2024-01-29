@@ -13,8 +13,10 @@ for(i=0;i<array.length;i++)
     }
 }
 
-
-
+function myfun()
+{
+document.getElementsById("head1").innerHTML="formhaney";
+};
 
 
 //object is same as array but not bettter than

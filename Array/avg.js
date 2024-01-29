@@ -7,3 +7,10 @@ for(let val of marks)
 }
 
 console.log(sum);
+
+
+
+function myfun()
+        {
+        document.getElementById("head1").innerHTML="haney is here";
+            } 
