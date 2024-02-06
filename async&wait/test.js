@@ -4,6 +4,10 @@ function getdata(dataid,getnextdata)
 setTimeout(()=>
 {
     console.log(dataid);
+    if(getnextdata)
+    {
+        getnextdata();
+    }
 }
 ,2000)
 }
