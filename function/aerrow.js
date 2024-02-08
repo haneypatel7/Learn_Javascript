@@ -4,6 +4,7 @@ let addval=(a,b)=>
 }
 var a=addval(12,1)
 console.log(a);
+console.log(addval);
 
 
 

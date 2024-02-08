@@ -8,4 +8,15 @@ class car
 }
 
 let thar=new car();
-thar.star();
+thar.star(); 
+class bike
+{
+    run()
+    {
+        console.log("two wheeles");
+    }
+}
+
+let activa=new bike();
+activa.run();
+

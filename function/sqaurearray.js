@@ -4,3 +4,10 @@ arr.forEach(function sqaurearr(val)
     console.log( val*val);
 }
 );
+
+
+let name=["haney","patel","jitendrabhai"];
+name.forEach(function printname(pname)
+{
+    console.log(pname);
+})
