@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing</title>
+    <!-- <script src="test.js"></script> -->
+
+</head>
+<body>
+    <form action="test.html"  name="ftest" method="post">
+       <label for="NAME">USERNAME:</label> <input type="test" name="username" id="text1" >
+       <br>
+       <label for="PASSWORD">PASSWORD:</label> <input type="test" name="password" id="text2" >
+        <br><button onclick="myfunction()">print data</button>
+        <br>
+        <p id="demo"></p>
+    </form>
+
+    <script>
+       function myfunction() {
+        let x = document.forms["ftest"];
+        let text = " ";
+
+        for (let i = 0; i < x.elements.length; i++) {
+            text += x.elements[i].name + ": " + x.elements[i].value + "<br>";
+        }
+
+        document.getElementById("demo").innerHTML = text;
+        return false;
+    }
+    
+
+    </script>
+
+    
+    
+</body>
+</html>
