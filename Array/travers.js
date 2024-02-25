@@ -1,6 +1,6 @@
 let hero=['animal','hulk','populars'];
 //here of is keyword
-for(heros  of hero)
+for(value  of hero)
 {
-    console.log(heros);
+    console.log(value);
 }
